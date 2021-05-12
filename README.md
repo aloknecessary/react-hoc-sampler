@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sample project created to demonstrate HOC funstionality in React App.
 
 ## Available Scripts
 
