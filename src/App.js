@@ -5,8 +5,12 @@ import React from 'react';
 import List from './components/List';
 import WithLoading from './components/withLoading.js';
 //
-const ListWithLoading = WithLoading(List);
+// import SayHelloComponent from "./components/SayHelloComponent";
+// import withStyle from "./components/withStyle.js";
 //
+const ListWithLoading = WithLoading(List);
+//const StyledHello = withStyle(SayHelloComponent);
+
 class App extends React.Component {
   state = {
     loading: false,
@@ -26,6 +30,10 @@ class App extends React.Component {
         isLoading={this.state.loading}
         repos={this.state.repos}
       />
+      // <div>
+      //   <SayHelloComponent name="Alok" />
+      //   <StyledHello name="Alok" />
+      // </div>
     );
   }
 }
